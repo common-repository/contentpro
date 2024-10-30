@@ -1,0 +1,105 @@
+.contentprogallery .description {
+	padding: 0px;
+	position: absolute;
+	bottom: 0px;
+	background: url('images/rahmenwhite.png') right top;
+	width: 340px;
+	padding-top: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+	color: #999;
+	display: none;
+}
+.contentprogallery h2 {
+	max-width: 340px!important;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 12px;
+}
+
+.contentprogallery .description h3 {
+	padding: 0px!important;
+	margin: 0px!important;
+	font-size: 16px!important;
+	color: #702bff!important;
+	font-weight: normal!important;
+}
+
+.contentprogallery .wrapper a {
+	text-decoration: none;
+	border:none;
+	padding: 0px;
+	margin: 0px;
+}
+.contentprogallery .wrapper ul,
+.contentprogallery .wrapper ul li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.contentprogallery .wrapper {
+	position: relative;
+	overflow: hidden;
+}
+.contentprogallery .wrapper li {
+	position: relative;
+	float: left;
+}
+.contentprogallery .wrapper .panel {
+	overflow: hidden;
+	position: static;
+	background-color: #DDD;
+}
+
+.contentprogallery .wrapper ul {
+	position: absolute;
+	width: 20000px;
+}
+
+.contentprogallery {
+	width: 480px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+.contentprogallery .nav_bottom .pages {
+	float: left; 
+	max-width: 320px;
+}
+
+.contentprogallery .nav_bottom {
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.contentprogallery button.page {
+	border: none;
+	background: none;
+	color: #FF4C00;
+	width: 25px;
+	height: 25px;
+	padding: 0px; margin: 0px;
+	text-align: left;
+
+}
+.contentprogallery button.page.active {
+	color: #702bff;
+}
+
+.contentprogallery .button, 
+.contentprogallery .button:visited {
+	text-decoration: none;
+	font-size: 25px;
+	height: 30px;
+	width: 30px;
+	color: #ff6300; 
+	border: none;
+	background: none;
+	margin: 0px;
+	margin-top: -3px; 
+	padding: 0px; 
+}
+.contentprogallery .button:hover	{  color: #702bff; }
+.contentprogallery .button:active	{ top: 1px; }
